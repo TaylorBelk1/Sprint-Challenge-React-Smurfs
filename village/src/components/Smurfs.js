@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 
 import Smurf from './Smurf';
 
+
+
 class Smurfs extends Component {
   render() {
     return (
-      <div className="Smurfs">
-        <h1>Smurf Village</h1>
-        <ul>
+      <div>
+        <h1 className="title">Smurf Village</h1>
+        <ul className="Smurfs">
           {this.props.smurfs.map(smurf => {
             return (
               <Smurf

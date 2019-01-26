@@ -1,3 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Ruslan+Display');
+
 .App {
   text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Ruslan Display', cursive;
+}
+
+a, li, ul {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  padding-top: 12px;
+  background-color: #16BDF6;
+}
+
+.nav li {
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 50px;
+}
+
+.Smurfs {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.Smurf {
+  padding: 20px;
+  margin: 15px;
+  border: 2px solid lightgray;
+}
+
+.SmurfForm {
+  width: 40%;
+  margin: 50px auto;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid lightgray;
+}
+
+.input {
+  width: 60%;
+  margin: 0 auto;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+.button {
+  width: 40%;
+  margin: 0 auto;
 }
