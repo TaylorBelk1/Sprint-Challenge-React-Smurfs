@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 import Smurf from './Smurf';
 
-
+//props from app.js
+// deleteSmurf={this.deleteSmurf}
+//smurfs={this.state.smurfs}
 
 class Smurfs extends Component {
   render() {
@@ -18,6 +20,7 @@ class Smurfs extends Component {
                 age={smurf.age}
                 height={smurf.height}
                 key={smurf.id}
+                deleteSmurf={this.props.deleteSmurf}
               />
             );
           })}
