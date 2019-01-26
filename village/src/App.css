@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Ruslan+Display');
 
+html, .App { 
+  background: url('./components/smurfBG.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
   width: 100%;
@@ -23,27 +31,32 @@ a, li, ul {
   height: 50px;
   padding-top: 12px;
   background-color: #16BDF6;
+ 
 }
 
 .nav li {
   margin: 0 auto;
+  color: white;
 }
 
 .title {
   margin-top: 50px;
+  color: white;
 }
 
 .Smurfs {
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  color: #16BDF6;
 }
 
 .Smurf {
   padding: 20px;
   margin: 15px;
-  border: 2px solid lightgray;
+  border: 2px solid white;
   border-radius: 7px;
+  background-color: whitesmoke;
 }
 
 .SmurfForm {
@@ -54,6 +67,9 @@ a, li, ul {
   flex-direction: column;
   text-align: center;
   border: 2px solid lightgray;
+  color: #16BDF6;
+  background-color: whitesmoke;
+  border-radius: 5px;
 }
 
 .input:first-of-type {
@@ -80,4 +96,25 @@ a, li, ul {
 
 span {
   margin-right: 8px;
+}
+
+
+
+.home {
+  position: absolute;
+  left: 40%;
+  top: 45%;
+}
+
+button {
+  padding: 10px;
+  border-radius: 7px;
+  border-color: white;
+  background-color: #16BDF6;
+}
+
+button a {
+color: white;
+font-size: 20px;
+font-family: 'Ruslan Display', cursive
 }
